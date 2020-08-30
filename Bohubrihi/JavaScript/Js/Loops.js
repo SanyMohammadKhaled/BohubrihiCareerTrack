@@ -36,7 +36,7 @@ for (var j = 0 ; j < arr.length ; j++){
 }
 var str  = "I love Javascript"
 
-for(var x in str){ //To get Serial Number, Strings/Array/Object
+for(var x in str){ //To get index Number, Strings/Array/Object
     console.log(`Item${x} : ${str[x]}`)
 }
 
