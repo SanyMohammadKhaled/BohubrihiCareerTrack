@@ -1,6 +1,6 @@
 //Class name is a template for creating object
 
-/*class Person{
+class Person{
     constructor(fname,lname,dob){
         this.Fname = fname,
         this.Lname = lname,
@@ -17,6 +17,18 @@
 
 person1 = new Person('Sany','Khaled','01-11-1997')
 console.log(person1)
-console.log(person1.calcAge()) */
+console.log(person1.calcAge()) 
 
 //subclass,Inheritence
+
+class teacher extends Person{
+    
+    constructor(Fname,Lname,id,add){
+        super(Fname,Lname)    
+        this.id = id,
+        this.add = add  
+  }
+}
+
+teacher1 = new teacher('Simanta','Paul',1711853,'Dhaka')
+console.log(teacher1)

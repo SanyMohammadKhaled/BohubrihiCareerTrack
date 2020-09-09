@@ -1,0 +1,15 @@
+.container-{
+    border: 2px solid red;
+    padding: 5px;
+}
+
+.col-8{
+    border: 3px solid brown;
+    text-align: justify;
+    text-indent: 15px;
+}
+.col-4{
+    border: 3px solid brown;
+    text-align: justify;
+    text-indent: 15px;
+}
